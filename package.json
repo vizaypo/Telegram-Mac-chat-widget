@@ -1,7 +1,7 @@
 {
     "name": "telegram-widget",
     "version": "1.0.0",
-    "description": "Telegram Widget for macOS. Always on top, transparent, and widget-styled. For any macOS development contact vizayp@icloud.com",
+    "description": "A modern, transparent, and always-on-top Telegram Widget for macOS. Features a Control Center, Zoom, and Opacity sliders. For macOS development inquiries, contact vizayp@icloud.com",
     "main": "main.js",
     "scripts": {
         "start": "electron .",

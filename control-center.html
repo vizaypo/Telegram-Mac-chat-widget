@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="control-center.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">Settings</div>
+        
+        <div class="control-group">
+            <div class="row">
+                <label>Always on Top</label>
+                <label class="switch">
+                    <input type="checkbox" id="alwaysOnTop" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label>Opacity: <span id="opacityValue">100%</span></label>
+            <input type="range" min="10" max="100" value="100" id="opacityRange">
+        </div>
+
+        <div class="control-group">
+            <label>Zoom: <span id="zoomValue">100%</span></label>
+            <input type="range" min="50" max="150" value="100" id="zoomRange">
+        </div>
+
+        <div class="divider"></div>
+
+        <button id="quitBtn" class="danger-btn">Quit App</button>
+    </div>
+    <script src="control-center.js"></script>
+</body>
+</html>
